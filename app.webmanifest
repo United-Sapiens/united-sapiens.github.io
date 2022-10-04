@@ -1,13 +1,14 @@
 {
-    "name": "United Sapiens • Tribute to War Victims",
+    "name": "United Sapiens • We The Sapiens",
     "short_name": "United Sapiens",
-    "description": "A tribute to all victims of armed conflicts that are taking place around the world.",
-    "lang": "en-US",
+    "description": ".",
+    "lang": "en",
     "scope": "/",
     "start_url": "/?utm_source=homescreen",
     "display": "standalone",
-    "theme_color": "#009edb",
-    "background_color": "#009edb",
+    "theme_color": "#1BB76E",
+    "background_color": "#1BB76E",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "icons/android-icon-36x36.png",
