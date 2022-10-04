@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Website Configuration -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="rating" content="general" />
+        <meta name="robots" content="index, all" />
+        <meta name="revisit-after" content="7 days" />
+        <!-- https://www.united-sapiens.org/ -->
+        <base href="https://www.united-sapiens.org/" />
+        <link rel="canonical" href="https://www.united-sapiens.org/" />
+
+        <!-- Website Description -->
+        <meta name="author" content="United Sapiens" />
+        <meta name="description" content="A tribute to honor all the United Nations' efforts to find peaceful solutions to international conflicts and political rivalries." />
+        <meta name="keywords" content="United Sapiens,United Nations,tribute,war,victims,armed,conflits,around the world,world" />
+        <title>United Sapiens • Tribute to the United Nations</title>
+
+        <!-- Progressive Web Application -->
+        <meta name="application-name" content="United Sapiens" />
+        <meta name="theme-color" content="#009edb" />
+        <meta name="browsermode" content="application" />
+        <meta name="layoutmode" content="fitscreen/standard" />
+        <meta name="full-screen" content="no" />
+        <meta name="nightmode" content="enable/disable" />
+        <meta name="imagemode" content="force" />
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="manifest" href="app.webmanifest" />
+
+        <!-- Favicons for Desktop Browsers -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+
+        <!-- Android Devices / Chrome -->
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="icon" type="image/png" sizes="36x36" href="icons/android-icon-36x36.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="icons/android-icon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="72x72" href="icons/android-icon-72x72.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="icons/android-icon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="144x144" href="icons/android-icon-144x144.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="256x256" href="icons/android-icon-256x256.png" />
+        <link rel="icon" type="image/png" sizes="384x384" href="icons/android-icon-384x384.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="icons/android-icon-512x512.png" />
+
+        <!-- iOS Devices / Safari -->
+        <meta name="apple-mobile-web-app-title" content="United Sapiens" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png" />
+        <link rel="mask-icon" color="#009edb" href="icons/safari-pinned-tab.svg" />
+
+        <!-- Windows Tiles for Desktop -->
+        <meta name="msapplication-tooltip" content="United Sapiens" />
+        <meta name="msapplication-starturl" content="/" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="msapplication-navbutton-color" content="#009edb" />
+        <meta name="msapplication-TileColor" content="#009edb" />
+        <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="icons/ms-icon-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="icons/ms-icon-150x150.png" />
+        <meta name="msapplication-square310x310logo" content="icons/ms-icon-310x310.png" />
+        <meta name="msapplication-wide310x150logo" content="icons/ms-icon-310x150.png" />
+        <meta name="msapplication-config" content="browserconfig.xml" />
+
+        <!-- Share on Social Networks -->
+        <meta property="og:site_name" content="United Sapiens" />
+        <meta property="og:title" content="United Sapiens • Tribute to the United Nations" />
+        <meta property="og:description" content="A tribute to honor all the United Nations' efforts to find peaceful solutions to international conflicts and political rivalries." />
+        <meta property="og:locale" content="en-US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.united-sapiens.org/" />
+        <meta property="og:image" content="https://www.united-sapiens.org/icons/ms-icon-310x150.png" />
+        <meta property="og:image:alt" content="United Sapiens Logo" />
+        <meta property="og:image:type" content="image/jpeg, image/png" />
+
+        <!-- Share on Twitter -->
+        <meta name="twitter:site" content="@United_Sapiens" />
+        <meta name="twitter:title" content="United Sapiens • Tribute to the United Nations" />
+        <meta name="twitter:description" content="A tribute to honor all the United Nations' efforts to find peaceful solutions to international conflicts and political rivalries." />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="https://www.united-sapiens.org/icons/ms-icon-310x150.png" />
+        <meta name="twitter:image:alt" content="United Sapiens Logo" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" />
+
+        <!-- Icon Fonts -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" />
+
+        <!-- Libraries Stylesheets -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+
+        <!-- Website Stylesheets -->
+        <link rel="stylesheet" href="styles/main.css" />
+    </head>
+
+    <!-- Website Content -->
+    <body>
+        <header class="container-fluid d-flex flex-wrap justify-content-between align-items-center py-2 backdrop">
+            <div class="col-md-4 d-flex align-items-center caption">
+                <a id="aboutModalLabel" href="#" data-bs-toggle="modal" data-bs-target="#aboutModal" title="Click to know more about this website">
+                    <h3 class="nav-top"><i class="fa-solid fa-bars" role="img" aria-label="Click to know more about this website"></i> United Sapiens</h3>
+                </a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end caption">
+                <a href="https://github.com/United-Sapiens/United-Sapiens.github.io" title="Edit this page on GitHub" target="_blank">
+                    <h6 class="nav-top"><i class="fa-regular fa-pen-to-square" role="img" aria-label="Edit this page on GitHub"></i>&nbsp; Add My Country</h6>
+                </a>
+            </div>
+        </header>
+
+        <main id="carouselFlag" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <!-- COLORS AND FLAG OF UNITED NATIONS -->
+                    <style>
+                        .en-UN {
+                            background-image: url(slides/un.jpg);
+                        }
+                        .en-UN .clamor-verse {
+                            color: #1F5791;
+                        }
+                    </style>
+
+                    <!-- UNITED NATIONS' ENGLISH CLAMOR -->
+                    <article class="en-UN">
+                        <section class="clamor">
+                            <p class="clamor-title">— WE THE SAPIENS —</p>
+                            <p class="clamor-verse">WE ARE SAPIENS</p>
+                            <p class="clamor-verse">ONE PEOPLE OF ONE SPECIES</p>
+                            <p class="clamor-verse">TOGETHER WE'LL BE STRONGER</p>
+                            <p class="clamor-verse">UNITED WE'LL BE INVINCIBLE</p>
+                            <p class="clamor-blank">&nbsp;</p>
+                            <p class="clamor-verse">NO ONE SHALL EVER DIVIDE US</p>
+                            <p class="clamor-verse">BY CASTE, RACE OR RELIGION</p>
+                            <p class="clamor-verse">OUR UNION WILL BECOME LEGION</p>
+                            <p class="clamor-verse">ONE FOR ALL AND ALL FOR ONE</p>
+                            <p class="clamor-blank">&nbsp;</p>
+                            <p class="clamor-local">— UNITED NATIONS —</p>
+                        </section>
+                    </article>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFlag" data-bs-slide="prev" title="Previous Country">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFlag" data-bs-slide="next" title="Next Country">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </main>
+
+        <footer class="container-fluid d-flex flex-wrap justify-content-between align-items-center py-2 backdrop">
+            <div class="col-md-4 d-flex align-items-center caption">
+                <a href="https://github.com/UnitedSapiens" title="Contact me on GitHub" target="_blank">
+                    <h6 class="nav-top"><i class="fa-brands fa-creative-commons icon-social" role="img" aria-label="Contact me on GitHub"></i>&nbsp; 2022&nbsp; Raul Bras</h6>
+                </a>
+            </div>
+            <ul class="nav col-md-4 d-flex justify-content-end list-unstyled">
+                <li class="ms-3 caption">
+                    <a href="https://www.twitter.com/United_Sapiens" title="Contact me on Twitter" target="_blank"><i class="fa-brands fa-twitter icon-social" role="img" aria-label="Contact me on Twitter"></i></a>
+                </li>
+                <li class="ms-3 caption">
+                    <a href="https://www.reddit.com/user/united_sapiens" title="Contact me on Reddit" target="_blank"><i class="fa-brands fa-reddit icon-social" role="img" aria-label="Contact me on Reddit"></i></a>
+                </li>
+                <li class="ms-3 caption">
+                    <a href="https://www.facebook.com/UnitedSapiens" title="Contact me on Facebook" target="_blank"><i class="fa-brands fa-facebook icon-social" role="img" aria-label="Contact me on Facebook"></i></a>
+                </li>
+                <li class="ms-3 caption">
+                    <a href="https://www.youtube.com/channel/UCs-f_90V-dN2AlW_PDZRVGA" title="Contact me on YouTube" target="_blank"><i class="fa-brands fa-youtube icon-social" role="img" aria-label="Contact me on YouTube"></i></a>
+                </li>
+                <li class="ms-3 caption">
+                    <a href="https://www.linkedin.com/in/united-sapiens" title="Contact me on LinkedIn" target="_blank"><i class="fa-brands fa-linkedin icon-social" role="img" aria-label="Contact me on LinkedIn"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- Toast: Carousel Navigation Instructions -->
+        <div class="position-fixed top-0 end-0 p-2" style="z-index: 50">
+            <div id="navigationToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <i class="fa-solid fa-circle-chevron-left"></i> &nbsp; &nbsp; <i class="fa-solid fa-circle-chevron-right"></i> &nbsp; &nbsp; <strong class="me-auto">Navigation</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" title="Close this"></button>
+                </div>
+                <div class="toast-body fs-6">
+                    Click the &nbsp;<i class="fa-solid fa-chevron-left"></i>&nbsp; “left” and &nbsp;<i class="fa-solid fa-chevron-right"></i>&nbsp; “right” arrows or swipe left and right to cycle through all countries.
+                </div>
+            </div>
+        </div>
+
+        <!-- Scrollable modal -->
+        <div id="aboutModal" class="modal fade" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="images/modal-logo.png" class="icon-inline" alt="United Sapiens Logo" draggable="false" />
+                        <h4 class="modal-title">&nbsp; United Sapiens &nbsp; <small class="text-muted" title="Non-Governmental Organization">(NGO)</small></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" title="Close this"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/modal-banner.jpg" class="img-fluid img-thumbnail mb-4" alt="Stop The Wars" />
+                        <div class="tab-content">
+                            <div id="en-UN" class="tab-pane fade show active">
+                                <!-- ABOUT THIS IN ENGLISH -->
+                                <h5>About This Tribute</h5>
+                                <p>This website pays tribute to the <b>United Nations</b>' founding initiative to promote international cooperation and ensure possible world peace. It can also represent a tribute to all victims of armed conflicts that are taking place around the world.</p>
+                                <p>Shortly after the end of the First World War, the Spanish poet and essayist George Santayana wrote in his 1922 book "Soliloquies in England": <i>"Yet the poor fellows think they are safe! They think that the war is over! Only the dead have seen the end of war."</i> Unfortunately, after millennia of civilization, we still have wars, massacres, genocides, heinous crimes, human rights violations, etc.</p>
+                                <p>My intention when creating an online memorial was to take advantage of the greater accessibility that the digital medium has. I still have other ideas for other memorials - in time I hope to continue developing them.</p>
+                                <br />
+
+                                <h5>Long Live the United Nations</h5>
+                                <p>In recent decades, since its founding in 1945, the <b>United Nations</b> has been committed to finding peaceful solutions to diverse international conflicts and political rivalries. The enormous difficulty in achieving world peace is a reflection of the tribalist and conservative nationalism still held by nations, rather than a sensible foreign policy. You may have read or heard some of the following ancient statements:</p>
+                                <ul>
+                                    <li>France has no friends, only interests.</li>
+                                    <li>England has no eternal friends, England has no perpetual enemies, England has only eternal and perpetual interests.</li>
+                                    <li>The United States of America has no friends; have interests.</li>
+                                    <li>Nations have no permanent friends and no permanent enemies, only permanent interests.</li>
+                                    <li>Countries never become friends, it is their interest for what they pretend to be friend.</li>
+                                    <li>Men can have friends, statesmen cannot.</li>
+                                </ul>
+                                <p>The greatest threat facing the <b>United Nations</b> is the risk of being discredited, of becoming a front political organization and having the same fate as the <b>League of Nations</b>, which was created in 1919 but closed after three decades for not having fulfilled its main purpose of preventing wars. Several wars and conflicts have occurred since the founding of the <b>United Nations</b> as a result of the failure of negotiations.</p>
+                                <p>I still have hope that we can achieve a state of world peace, without armed conflicts or political rivalries. However, I am fully aware that we are still very far from this ideal. We need to focus on ending dictatorial regimes, removing the military from these governments and restoring democracy in these nations. It would be an important step towards the progress of international relations.</p>
+                                <br />
+
+                                <h5>The United Sapiens Initiative</h5>
+                                <p>The main idea behind the <b>United Sapiens</b> initiative is to make citizens and governments aware that we need to evolve our way of thinking and acting. In this sense, the first step is to "stamp in our minds" that <b>we are all human beings, without divisions of caste, gender, race, religion, fortune, ideology, etc</b>. This also includes any other type of prejudice or any other form of discrimination.</p>
+                                <p>In addition, there are other important guidelines that deserve attention. Countries that surrender to dictatorial or fascist regimes are precisely those that harm international negotiations and cause conflicts. Also, the recent rise of far-right extremism in some nations poses a great risk to established democracies. The citizens of these nations need to be aware of the risk to which they are subject.</p>
+                                <p>Knowledge of geopolitics is important to understand the real intention of certain fascist leaders, because they usually tend to act in a populist way at the beginning and evolve to authoritarianism after coming to power. Those nations who cannot remember the past mistakes of other nations are condemned to repeat them. An important activity that <b>United Sapiens</b> intends to carry out on this issue is to show people that geopolitics is everywhere — hence the intention to act on a global level.</p>
+                                <br />
+
+                                <h5>Global Goals</h5>
+                                <p>The <b>United Nations</b> still has a wide spectrum of problems to solve. In my opinion, the large number of deaths resulting from the ongoing wars and the constant influx of refugees make the following goals a priority:</p>
+                                <ul>
+                                    <li>Eliminate the veto power of the five permanent members (China, France, Russia, United Kingdom, United States) in the <b>United Nations Security Council</b>;</li>
+                                    <li>Make the <b>Security Council</b> the only official military alliance, for the benefit of the member countries of the <b>United Nations</b>;</li>
+                                    <li>Terminate all current military alliances (e.g., NATO);</li>
+                                    <li>Stop all the ongoing armed conflicts that are taking place around the world;</li>
+                                    <li>Dissolve existing dictatorial regimes and restore democracy in these nations;</li>
+                                    <li>Incorporate the <b>Universal Declaration of Human Rights</b> into the constitutions of all member countries of the <b>United Nations</b>.</li>
+                                </ul>
+                                <p>As you can see, there is a lot to be done to make the world a better place. Anyone can contribute in any way they can. You can also contribute if you are interested. Join the conversation on the social networks. Your comments and suggestions are always welcome.</p>
+                                <br />
+
+                                <h5>We The Sapiens' Clamor</h5>
+                                <p>The short text that I call <b>We The Sapiens' Clamor</b>, in the form of a poem and almost a popular appeal, is an allusion to the great potential that human beings could achieve if everyone united for peace, without divisions and without the need for wars. In my opinion, we have forgotten the most important thing throughout history: WE ARE ALL HOMO SAPIENS, A SINGLE SPECIES OF A SINGLE PEOPLE.</p>
+                                <p>On this landing page I present the <b>We The Sapiens' Clamor</b> translated into many languages ​​of many countries, to reinforce my way of thinking and the motto of <b>United Sapiens</b>. I also want to make it clear that anyone can participate in this initiative just by accessing the <a href="https://github.com/United-Sapiens/United-Sapiens.github.io" titles="Website repository on GitHub" target="_blank">website repository</a> on GitHub.</p>
+                                <br />
+
+                                <hr />
+                                <figure class="text-center">
+                                    <blockquote class="blockquote">
+                                        <p>"Those who cannot remember the past are condemned to repeat it."</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/George_Santayana" title="Click here to know more about George Santayana" target="_blank">George Santayana</a>, book <cite title="Source Title:">The Life of Reason, 1905</cite></figcaption>
+                                </figure>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.unhcr.org/" class="btn btn-primary" role="button" title="Wanna support a really cool cause?" target="_blank"><i class="fa-solid fa-hand-holding-heart"></i>&nbsp; UNHCR</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Close this"><i class="fa-solid fa-xmark"></i>&nbsp; Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Libraries Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Website Scripts -->
+        <script src="scripts/iso-codes.js"></script>
+        <script src="scripts/main.js"></script>
+
+        <!-- Progressive Web Application -->
+        <script>
+            // Check compatibility for the browser we're running this in:
+            if ("serviceWorker" in navigator && ! navigator.serviceWorker.controller) {
+                // Register the service worker:
+                navigator.serviceWorker
+                    .register("/sw.js", { scope: "/" })
+                    .then((reg) => console.info("[PWA] Service worker has been registered:", reg))
+                    .catch((err) => console.error("[PWA] Service worker registration failed:", err));
+            }
+        </script>
+    </body>
+</html>
