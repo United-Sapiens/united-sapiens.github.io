@@ -53,6 +53,5 @@ If this sounds like *gibberish* to you, no worries, just send me an e-mail: **un
 <br />
 
 <h4 align="right">:vulcan_salute:&nbsp; I really appreciate your help.</h4>
-<br /><br />
 
 ![Repository Meme](/assets/repo-meme.gif)
