@@ -131,7 +131,7 @@ footer {
     }
 }
 
-/*** UNITED SAPIENS' CLAMOR ***/
+/*** UNITED SAPIENS' MANTRA ***/
 article {
     left: 0;
     top: 0;
@@ -148,7 +148,7 @@ article {
     background-attachment: fixed;
 }
 
-article section.clamor {
+article section.mantra {
     position: absolute;
     display: inline-block;
     top: 50%;
@@ -171,34 +171,34 @@ article section.clamor {
 }
 @-moz-document url-prefix() {
     /* FIXME Blur in Firefox is different */
-    article section.clamor {
+    article section.mantra {
         background: hsla(0, 0%, 95%, 0.8) !important;
     }
 }
 
-article section.clamor p {
+article section.mantra p {
     font-weight: 600;
     white-space: nowrap;
     margin: 0;
     padding: 0;
 }
 @media (orientation: portrait) {
-    article section.clamor p {
+    article section.mantra p {
         font-size: 5vw;
         font-weight: 700;
         line-height: 6vh;
     }
 }
 @media (orientation: landscape) {
-    article section.clamor p {
+    article section.mantra p {
         font-size: 2vw;
         font-weight: 600;
         line-height: 6.7vh;
     }
 }
 
-article section.clamor p.clamor-title,
-article section.clamor p.clamor-local {
+article section.mantra p.mantra-title,
+article section.mantra p.mantra-local {
     font-family: Times, "Times New Roman", serif;
     letter-spacing: 0.5vw;
     color: white;
@@ -209,7 +209,7 @@ article section.clamor p.clamor-local {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article section.clamor p.clamor-verse {
+article section.mantra p.mantra-verse {
     text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.7);
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

@@ -5,7 +5,7 @@
     const URL_REPO = "https://api.github.com/repos/United-Sapiens/United-Sapiens.github.io/git/trees/main";
     const DIR_SLDS = "slides";
     const DIR_TNLS = "translations";
-    const INTERVAL = 10000;  // 10 seconds is enough to read the entire clamor.
+    const INTERVAL = 10000;  // 10 seconds is enough to read the entire mantra.
 
     // --- ACCESS GITHUB REPO CONTENT -------------------------------
 
