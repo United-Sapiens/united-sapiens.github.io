@@ -12,9 +12,14 @@ GitHub Pages for hosting the landing-page of the United Sapiens tribute. This is
 The slides I have already added were made using online translation tools, which is not 100% correct. I wish I could add slides for every country in the world, but I don't have the knowledge of the languages. I have received some suggestions on the web, due to some posts I made on Imgur and Reddit, and I have corrected the translations made so far. That's why I would like the help from people in each country to translate the **We The Sapiens** mantra and the **About This** modal into each language. if you are interested you can also contribute...   :thumbsup:
 
 
+## Why jQuery?
+
+As a Full Stack Web Developer, I have been using the Angular framework in the last 5 years. This year I started studying the React framework, which is very requested in job offers. These frameworks are very good, but they don't compare to jQuery in terms of market share: 77.4% of all websites on the Internet use jQuery (October, 2022). My decision for using jQuery was based on the large number of developers who are not yet familiar with these new frameworks.
+
+
 ## How You Can Contribute
 
-You can help if you want, by editing this repo and adding new content - text, images, videos, audios...
+You can help if you want, by editing this repo and adding new content - text, scripts, styles, images, ...
 
 Just follow the steps below:
 
